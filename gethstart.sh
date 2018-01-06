@@ -1,0 +1,1 @@
+geth --identity "MyNode" --rpc --rpcport "8080" --rpccorsdomain "*" --datadir "./chaindata" --port "30303" --nodiscover --maxpeers 0 --mine 1 --unlock "0,1" --password "./password.txt" --rpcapi "db,eth,net,web3" --networkid 1900 --nat "any"

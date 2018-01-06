@@ -1,0 +1,11 @@
+mkdir ./truffle;
+mkdir ./main;
+mkdir ./main/chaindata;
+mkdir ./main/chaindata/keystore;
+cp ~/Documents/keystore/* ./main/chaindata/keystore/;
+cp ~/Documents/gethinit.sh ./main;
+cp ~/Documents/gethstart.sh ./main;
+cp ~/Documents/myGenesis.json ./main;
+cp ~/Documents/password.txt ./main;
+chmod a+x ./main/*;
+rm ./gethmake.sh;
